@@ -48,3 +48,29 @@ h1 {
 li {
   list-style: none;
 }
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    left: 7%;
+    font-family: serif;
+  }
+
+  #button {
+    position: absolute;
+    left: 26%;
+    height: 13%;
+  }
+
+  #firstUl {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-weight: bold;
+  }
+
+  #secondUl {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+  }
+}
