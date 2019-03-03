@@ -10,7 +10,7 @@ body {
 
 .container {
   width: 100%;
-  height: 350px;
+  height: 450px;
   background: lightblue;
   position: relative;
   overflow: hidden;
@@ -19,6 +19,10 @@ body {
 h1 {
   position: absolute;
   left: 23%;
+}
+
+#listContainer {
+  color: white;
 }
 
 #button {
@@ -35,21 +39,38 @@ h1 {
 
 #firstUl {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 15%;
   font-weight: bold;
 }
 
 #secondUl {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 45%;
 }
+#listContainer {
+  position: absolute;
+  bottom: 0%;
+  background-color: darkgreen;
+  color: yellow;
+  width: 100%;
+  height: 50%;
+}
+
 li {
   list-style: none;
 }
 
+#dinner {
+  width: 100%;
+}
+
 @media only screen and (max-width: 480px) {
+  .container {
+    height: 350px;
+  }
+
   h1 {
     left: 7%;
     font-family: serif;
@@ -63,14 +84,27 @@ li {
 
   #firstUl {
     position: absolute;
-    top: 50%;
-    left: 5%;
+    top: 5%;
+    left: 2%;
     font-weight: bold;
+    color: white;
   }
 
   #secondUl {
     position: absolute;
-    top: 50%;
-    left: 35%;
+    top: 5%;
+    left: 30%;
+  }
+  #listContainer {
+    position: absolute;
+    bottom: 0%;
+    background-color: darkgreen;
+    color: yellow;
+    width: 100%;
+    height: 50%;
+  }
+
+  #dinner {
+    width: 100%;
   }
 }
